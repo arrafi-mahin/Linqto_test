@@ -9,6 +9,9 @@ body{
         background: white;
         padding-top: 20px !important;
         
+        .active{
+            color: $secondary !important;
+        }
         .logo{
             height: 50px;
         }
@@ -296,4 +299,32 @@ body{
             }
         }
     }
+    
 }    
+
+
+//about Section
+
+    
+
+    .header-top{
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 36px;
+    }
+
+
+    .nav {
+        .nav-item {
+            a{
+                .nav-link{
+                    color: $primary;
+                    font-size: 14px;
+                    font-weight: 600;
+                    letter-spacing: .2rem;
+                    cursor: pointer;
+                    padding: 10px;
+                }
+            }
+        }
+    }
