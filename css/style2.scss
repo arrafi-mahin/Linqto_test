@@ -314,17 +314,22 @@ body{
     }
 
 
-    .nav {
+    .nav-pills {
         .nav-item {
+            margin: 0 42px;
             a{
-                .nav-link{
-                    color: $primary;
-                    font-size: 14px;
-                    font-weight: 600;
-                    letter-spacing: .2rem;
-                    cursor: pointer;
-                    padding: 10px;
+                color: $primary;
+                
+                .active{
+                    a{
+                        font-size: 14px;
+                        padding: 10px;
+                        background: $primary !important;
+                    }
+                    
                 }
+                
             }
+            
         }
     }

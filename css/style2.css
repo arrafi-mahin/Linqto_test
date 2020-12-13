@@ -294,12 +294,17 @@ body #footer .social_icon img {
   line-height: 36px;
 }
 
-.nav .nav-item a .nav-link {
+.nav-pills .nav-item {
+  margin: 0 42px;
+}
+
+.nav-pills .nav-item a {
   color: #12808A;
+}
+
+.nav-pills .nav-item a .active a {
   font-size: 14px;
-  font-weight: 600;
-  letter-spacing: .2rem;
-  cursor: pointer;
   padding: 10px;
+  background: #12808A !important;
 }
 /*# sourceMappingURL=style2.css.map */
