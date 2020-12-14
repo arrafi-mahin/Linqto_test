@@ -288,23 +288,51 @@ body #footer .social_icon img {
   padding: 0 10px;
 }
 
-.header-top {
+#about .header-top {
+  height: 200px;
   font-size: 36px;
   font-weight: 700;
   line-height: 36px;
 }
 
-.nav-pills .nav-item {
-  margin: 0 42px;
-}
-
-.nav-pills .nav-item a {
+#team h5 {
+  padding: 0;
   color: #12808A;
+  border-bottom: 2px #43C89A solid;
 }
 
-.nav-pills .nav-item a .active a {
-  font-size: 14px;
-  padding: 10px;
-  background: #12808A !important;
+#team .cards-sec {
+  padding: 20px;
+}
+
+#team .cards-sec .card {
+  padding: 20px;
+  border: none;
+}
+
+#team .cards-sec .card img {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  height: 160px;
+  width: 160px;
+}
+
+#team .cards-sec .card img:hover {
+  border: 5px #43C89A solid;
+}
+
+#team .cards-sec .card .card-body {
+  padding: 0;
+}
+
+#team .cards-sec .card .card-body .card-title {
+  color: #12808A;
+  font-size: 24px;
+  margin: 20px 0 0 0;
+}
+
+#team .cards-sec .card .card-body .card-text {
+  margin: 10px 0 0 0;
 }
 /*# sourceMappingURL=style2.css.map */

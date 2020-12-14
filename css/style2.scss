@@ -306,30 +306,50 @@ body{
 //about Section
 
     
-
-    .header-top{
-        font-size: 36px;
-        font-weight: 700;
-        line-height: 36px;
+    #about{
+        .header-top{
+            height: 200px;
+            font-size: 36px;
+            font-weight: 700;
+            line-height: 36px;
+        }
     }
-
-
-    .nav-pills {
-        .nav-item {
-            margin: 0 42px;
-            a{
-                color: $primary;
-                
-                .active{
-                    a{
-                        font-size: 14px;
-                        padding: 10px;
-                        background: $primary !important;
-                    }
-                    
-                }
-                
-            }
+    #team{
+        h5{
+            
+            padding: 0;
+            color: $primary;
+            border-bottom: 2px $secondary solid;
             
         }
+        .cards-sec{
+            padding: 20px;
+ 
+            .card{
+                padding: 20px;
+                border: none;
+                img {
+                    align-self: center;
+                    height: 160px;
+                    width: 160px;
+                    //border: 3px $secondary solid;
+                    &:hover{
+                        border: 5px $secondary solid;
+                    }
+                }
+                .card-body{
+                    padding: 0;
+                    .card-title{
+                        color: $primary;
+                        font-size: 24px;
+                        margin:20px 0 0 0;  
+                    }
+                    .card-text{
+                        margin: 10px 0 0 0;
+                    }
+                }
+            }
+
+        }
+        
     }
