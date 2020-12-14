@@ -335,4 +335,51 @@ body #footer .social_icon img {
 #team .cards-sec .card .card-body .card-text {
   margin: 10px 0 0 0;
 }
+
+#products {
+  padding: 30px;
+}
+
+#products .title-border {
+  padding-left: 20px;
+  font-size: 36px;
+  font-weight: 700;
+  border-left: 8px #43C89A solid;
+  padding-right: 10px;
+}
+
+#products .title-border-sm {
+  padding-left: 20px;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+#products .p-card {
+  margin: 5px 0;
+  padding: 10px 20px;
+  background: #EFEFEF;
+  border-radius: 8px;
+}
+
+#products .p-card:hover {
+  -webkit-box-shadow: 0.5px 2.8px 2.2px rgba(0, 0, 0, 0.034), 2px 6.7px 5.3px rgba(0, 0, 0, 0.048);
+          box-shadow: 0.5px 2.8px 2.2px rgba(0, 0, 0, 0.034), 2px 6.7px 5.3px rgba(0, 0, 0, 0.048);
+}
+
+#products .p-card img {
+  height: 40px;
+  width: 40px;
+}
+
+#products .p-card span {
+  margin: 0 42px;
+}
+
+#products .p-card .btn-primary {
+  background: #43C89A;
+  border: none;
+  width: 60px;
+  border-radius: 5px;
+  margin-top: 5px;
+}
 /*# sourceMappingURL=style2.css.map */
