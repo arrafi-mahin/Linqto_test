@@ -1,10 +1,19 @@
 $primary: #12808A;
 $secondary: #43C89A;
+
+
 body{
     //background: rgb(96, 138, 14);
     //padding-bottom: 100px;
     overflow-x: hidden;
-
+    //Login Modal
+    .modal{
+        .modal-dialog{
+            padding: 20px;
+            
+        }
+        
+    }
     .navbar {
         background: white;
         padding-top: 20px !important;
@@ -33,7 +42,7 @@ body{
             }
         }
     }
-    
+
     #showcase {
         //margin-bottom: 80px;
         //background: $secondary;

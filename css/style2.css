@@ -2,6 +2,10 @@ body {
   overflow-x: hidden;
 }
 
+body .modal .modal-dialog {
+  padding: 20px;
+}
+
 body .navbar {
   background: white;
   padding-top: 20px !important;
