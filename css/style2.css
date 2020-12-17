@@ -2,8 +2,8 @@ body {
   overflow-x: hidden;
 }
 
-body .modal .modal-dialog {
-  padding: 20px;
+body .modal .modal-dialog .modal-content .form-control {
+  border-bottom: 2px #43C89A solid;
 }
 
 body .navbar {

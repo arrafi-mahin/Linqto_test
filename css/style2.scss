@@ -9,7 +9,19 @@ body{
     //Login Modal
     .modal{
         .modal-dialog{
-            padding: 20px;
+            
+            .modal-content{
+                
+                .modal-header{
+               
+                    .modal-title{
+                        
+                    }
+                }
+                .form-control{
+                    border-bottom: 2px $secondary solid;
+                }
+            }
             
         }
         
